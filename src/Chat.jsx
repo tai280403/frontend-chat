@@ -23,7 +23,7 @@ function Chat() {
       });
 
       const data = await res.json();
-
+//o có j
       // Trích xuất câu trả lời từ Gemini
       const botReply =
         data?.candidates?.[0]?.content?.parts?.[0]?.text || "❌ Lỗi AI";
